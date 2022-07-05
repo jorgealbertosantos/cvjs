@@ -1,0 +1,62 @@
+
+
+
+/*  Tamaños de pantallas
+Android             360 x 640
+Android modernos    412 x 915
+Ios                 375 x 667
+Ios modernos        375 x 812
+                    414 x 896
+Iphone              320 x 568
+                    601 x 962
+Tablets             720 x 1024
+                    601 x 962
+Monitores           1366 x 768
+                    1920 x 1080
+*/
+@media only screen and (min-width:320px){ body { background-color: aqua; } 
+    .foto img { max-width: 80px; max-height: 80px;}}
+@media only screen and (min-width:414px){ body { background-color: brown; }    
+    .foto img { max-width: 100px; max-height: 100px;}}
+@media only screen and (min-width:568px){ body { background-color: chartreuse; }
+    .foto img { max-width: 140px; max-height: 140px;}}
+@media only screen and (min-width:667px){ body { background-color: darkkhaki; }
+    .foto img { max-width: 180px; max-height: 180px;}}
+@media only screen and (min-width:812px){ body { background-color: fuchsia; }
+    .foto img { max-width: 200px; max-height: 200px;}}
+@media only screen and (min-width:962px){ body { background-color: gray; }
+    .foto img { max-width: 220px; max-height: 220px;}}
+    
+@media only screen and (min-width:1024px){ body { background-color: hotpink; } 
+    .datosgene {width: 60%; float: left; font-size: small; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .inferior {font-size: small; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .foto {image-rendering: pixelated; float: inline-end;}    .foto img { max-width: 240px; max-height: 240px;}
+    .der {width: 200px; float: left;}
+    .izq {width: 200px; float: left; font-size:small; font-family: Georgia, 'Times New Roman', Times, serif; font-style: oblique;}
+    .expn1 {width: 200px; float: left;}    .expn2 {width: 200px; float: left;}
+}
+
+@media only screen and (min-width:1080px){ body { background-color: indigo; }
+    .datosgene {width: 60%; float: left; font-size: medium; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .inferior {font-size:medium; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .foto {image-rendering: pixelated; float: inline-end;}    .foto img { max-width: 300px; max-height: 300px;}
+    .der {width: 300px; float: left;}
+    .izq {width: 300px; float: left; font-size:medium; font-family: Georgia, 'Times New Roman', Times, serif; font-style: oblique;}
+    .expn1 {width: 300px; float: left;}    .expn2 {width: 300px; float: left;}
+}
+@media only screen and (min-width:1366px){ body { background-color: khaki; }
+    .datosgene {width: 60%; float: left; font-size:larger; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .inferior {font-size:larger; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .foto {image-rendering: pixelated; float: inline-end;}    .foto img { max-width: 400px; max-height: 400px;}
+    .der {width: 400px; float: left;}
+    .izq {width: 400px; float: left; font-size:larger; font-family: Georgia, 'Times New Roman', Times, serif; font-style: oblique;}
+    .expn1 {width: 400px; float: left;}    .expn2 {width: 400px; float: left;}
+}
+@media only screen and (min-width:1920px){ body { background-color: lightgreen; }
+    .datosgene {width: 60%; float: left; font-size:larger; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .inferior {font-size:larger; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    .foto {image-rendering: pixelated; float: inline-end;}    .foto img { max-width: 600px; max-height: 600px;}
+    .der {width: 600px; float: left;}
+    .izq {width: 600px; float: left; font-size:larger; font-family: Georgia, 'Times New Roman', Times, serif; font-style: oblique;}
+    .expn1 {width: 600px; float: left;}    .expn2 {width: 400px; float: left;}
+}

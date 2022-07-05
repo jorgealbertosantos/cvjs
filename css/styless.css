@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+.contenedor{
+    width:  1200px;
+    vertical-align: top;
+    margin: 50px;
+    padding: 20px;
+    background-color:olive;
+    border: 1px;
+    border-radius: 10px;
+}
+.superior {
+    display: flex;
+    flex-direction: row;
+}
+.datosgene, .foto{
+    margin: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size:  40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.datosgene{
+    width: 60%;
+    align-content: center;
+}
+.foto #img {
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 150px;
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    background-color: honeydew;
+    border-radius: 10px;
+    margin: 10px;
+}
+.mediosup {
+    display: flex;
+    flex-direction: row;
+}
+
+.izq, .izqq, .der, .derr {
+    background-color:cornsilk;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.izq, .izqq{
+    width: 30%;
+}
+.der, .derr{
+    width: 70%;
+}
+.forma, .exper, .curso{
+    display: flex;
+    flex-direction: row;
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.expn1 {
+    font-size: 25px;
+}
+.expn2{
+    font-size: 20px;
+}
+
+.inferior{
+    text-align: center;
+    background-color: cornsilk;
+    size: 4px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
